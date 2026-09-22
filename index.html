@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accueil - Mon Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  ============================================================
+  COMMENT PERSONNALISER CE PORTFOLIO (6 pages)
+  ============================================================
+  1. Cherchez les zones marquées "MODIFIER ICI" dans chaque
+     fichier .html : index.html, apropos.html, parcours.html,
+     competences.html, projets.html, contact.html.
+  2. Les couleurs et le style communs sont dans style.css
+     (variables --couleur-... en haut du fichier).
+  3. Le menu de navigation est répété dans chaque page : si
+     vous changez votre nom/logo, faites-le dans les 6 fichiers.
+  4. Pour votre photo, remplacez le lien de <img id="photo-profil">
+     par le nom de votre fichier image placé dans le même dossier.
+  ============================================================
+-->
+
+<header>
+  <nav>
+    <!-- MODIFIER ICI : votre nom / logo (répété sur les 6 pages) -->
+    <a href="index.html" class="logo">Prénom Nom</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="menu">
+      <li><a href="index.html" class="actif">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-texte">
+    <p class="intro">Bienvenue sur mon portfolio</p>
+    <!-- MODIFIER ICI : nom et titre -->
+    <h1>Salut, je suis <span>Prénom Nom</span></h1>
+    <h2>Étudiant(e) en BTS &mdash; Domaine à préciser</h2>
+    <p class="description">
+      Décrivez ici en 2-3 phrases qui vous êtes, votre BTS,
+      votre parcours et ce que vous recherchez (stage, alternance,
+      premier emploi...).
+    </p>
+    <div class="boutons">
+      <a href="parcours.html" class="btn btn-principal">Voir mon parcours</a>
+      <a href="contact.html" class="btn btn-secondaire">Me contacter</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <!-- MODIFIER ICI : remplacez le lien par le nom de votre fichier image -->
+    <img id="photo-profil" src="https://via.placeholder.com/220x220.png?text=Photo" alt="Photo de profil">
+  </div>
+</section>
+
+<footer>
+  <!-- MODIFIER ICI : votre nom -->
+  <p>&copy; <span id="annee"></span> Prénom Nom &mdash; Portfolio réalisé avec HTML &amp; CSS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
