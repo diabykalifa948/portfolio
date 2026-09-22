@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parcours - Mon Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <!-- MODIFIER ICI : votre nom / logo (répété sur les 6 pages) -->
+    <a href="index.html" class="logo">Prénom Nom</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="parcours.html" class="actif">Parcours</a></li>
+      <li><a href="competences.html">Compétences</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="titre-page">
+    <p class="label">Mon chemin</p>
+    <h1>Mon parcours scolaire et professionnel</h1>
+  </div>
+
+  <div class="timeline">
+
+    <!--
+      Chaque bloc "etape" = une étape de votre parcours.
+      Ajoutez la classe "pro" pour une expérience professionnelle
+      (change la couleur du badge de période).
+      Copiez/collez un bloc pour en ajouter un nouveau.
+      Ordre conseillé : du plus récent (en haut) au plus ancien (en bas).
+    -->
+
+    <!-- MODIFIER ICI : Année 2 de BTS (ou année la plus récente) -->
+    <div class="etape">
+      <span class="periode">2024 - 2025</span>
+      <h3>2ème année de BTS ...</h3>
+      <div class="lieu">Nom de l'établissement, Ville</div>
+      <p class="detail">
+        Décrivez le contenu de cette année : matières principales,
+        projets menés, compétences acquises.
+      </p>
+      <ul class="taches">
+        <li>Point clé ou projet réalisé n°1</li>
+        <li>Point clé ou projet réalisé n°2</li>
+        <li>Point clé ou projet réalisé n°3</li>
+      </ul>
+    </div>
+
+    <!-- MODIFIER ICI : un stage ou une expérience professionnelle -->
+    <div class="etape pro">
+      <span class="periode">Ex : Avril - Juin 2025</span>
+      <h3>Stagiaire / Alternant(e) &mdash; Intitulé du poste</h3>
+      <div class="lieu">Nom de l'entreprise, Ville</div>
+      <p class="detail">
+        Décrivez brièvement le contexte de l'entreprise et votre
+        rôle au sein de l'équipe.
+      </p>
+      <ul class="taches">
+        <li>Mission ou tâche réalisée n°1</li>
+        <li>Mission ou tâche réalisée n°2</li>
+        <li>Résultat ou compétence développée</li>
+      </ul>
+    </div>
+
+    <!-- MODIFIER ICI : Année 1 de BTS -->
+    <div class="etape">
+      <span class="periode">2023 - 2024</span>
+      <h3>1ère année de BTS ...</h3>
+      <div class="lieu">Nom de l'établissement, Ville</div>
+      <p class="detail">
+        Décrivez le contenu de cette première année : découverte
+        du domaine, premiers projets, adaptation aux études
+        supérieures.
+      </p>
+      <ul class="taches">
+        <li>Point clé ou projet réalisé n°1</li>
+        <li>Point clé ou projet réalisé n°2</li>
+      </ul>
+    </div>
+
+    <!-- MODIFIER ICI : votre diplôme précédent (Bac, etc.) -->
+    <div class="etape">
+      <span class="periode">2023</span>
+      <h3>Baccalauréat ... (mention si applicable)</h3>
+      <div class="lieu">Nom du lycée, Ville</div>
+      <p class="detail">
+        Précisez la filière suivie et éventuellement une mention
+        ou une spécialité marquante.
+      </p>
+    </div>
+
+    <!--
+      Pour ajouter une autre étape (autre stage, job d'été,
+      formation complémentaire...), dupliquez un des blocs
+      ci-dessus et modifiez son contenu.
+    -->
+
+  </div>
+</main>
+
+<footer>
+  <!-- MODIFIER ICI : votre nom -->
+  <p>&copy; <span id="annee"></span> Prénom Nom &mdash; Portfolio réalisé avec HTML &amp; CSS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

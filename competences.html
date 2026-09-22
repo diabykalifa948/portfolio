@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compétences - Mon Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <!-- MODIFIER ICI : votre nom / logo (répété sur les 6 pages) -->
+    <a href="index.html" class="logo">Prénom Nom</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="menu">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="parcours.html">Parcours</a></li>
+      <li><a href="competences.html" class="actif">Compétences</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="titre-page">
+    <p class="label">Savoir-faire</p>
+    <h1>Mes compétences</h1>
+  </div>
+
+  <div class="competences-grille">
+
+    <!-- MODIFIER ICI : catégorie de compétences n°1 -->
+    <div class="competence-carte">
+      <h3>Compétences techniques</h3>
+
+      <div class="barre">
+        <div class="nom-barre"><span>Compétence 1</span><span>80%</span></div>
+        <div class="barre-fond"><div class="barre-remplissage" style="width: 80%;"></div></div>
+      </div>
+
+      <div class="barre">
+        <div class="nom-barre"><span>Compétence 2</span><span>70%</span></div>
+        <div class="barre-fond"><div class="barre-remplissage" style="width: 70%;"></div></div>
+      </div>
+
+      <div class="barre">
+        <div class="nom-barre"><span>Compétence 3</span><span>60%</span></div>
+        <div class="barre-fond"><div class="barre-remplissage" style="width: 60%;"></div></div>
+      </div>
+    </div>
+
+    <!-- MODIFIER ICI : catégorie de compétences n°2 -->
+    <div class="competence-carte">
+      <h3>Outils &amp; logiciels</h3>
+
+      <div class="barre">
+        <div class="nom-barre"><span>Outil 1</span><span>75%</span></div>
+        <div class="barre-fond"><div class="barre-remplissage" style="width: 75%;"></div></div>
+      </div>
+
+      <div class="barre">
+        <div class="nom-barre"><span>Outil 2</span><span>65%</span></div>
+        <div class="barre-fond"><div class="barre-remplissage" style="width: 65%;"></div></div>
+      </div>
+
+      <div class="barre">
+        <div class="nom-barre"><span>Outil 3</span><span>50%</span></div>
+        <div class="barre-fond"><div class="barre-remplissage" style="width: 50%;"></div></div>
+      </div>
+    </div>
+
+    <!-- MODIFIER ICI : compétences humaines / transversales -->
+    <div class="competence-carte">
+      <h3>Savoir-être</h3>
+      <p style="color: var(--couleur-texte-doux); font-size: 0.9rem;">
+        Ex : travail d'équipe, autonomie, gestion du temps,
+        rigueur, adaptabilité, communication...
+      </p>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <!-- MODIFIER ICI : votre nom -->
+  <p>&copy; <span id="annee"></span> Prénom Nom &mdash; Portfolio réalisé avec HTML &amp; CSS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
